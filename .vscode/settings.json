@@ -1,0 +1,107 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.activeBorder": "#155e02",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#155e02",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "sash.hoverBorder": "#fa1b49",
+    "statusBar.background": "#dd0531",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#fa1b49",
+    "statusBarItem.remoteBackground": "#dd0531",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "activityBar.activeBackground": "#fa1b49",
+    "activityBar.background": "#fa1b49",
+    "titleBar.activeBackground": "#dd0531",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#dd053199",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#dd0531",
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.keywords": [
+    {
+      "text": "# ",
+      "color": "#FF5252",
+      "backgroundColor": "transparent",
+      "fontWeight": "bold",
+      "isWholeLine": true
+    },
+    {
+      "text": "• ",
+      "color": "#9E9E9E",
+      "backgroundColor": "transparent",
+      "isWholeLine": true
+    },
+    {
+      "text": "➜",
+      "color": "#ff6433",
+      "backgroundColor": "transparent",
+      "isWholeLine": true
+    },
+    {
+      "text": " Todo: ",
+      "color": "#ff6433",
+      "border": "1px solid #ff6433",
+      "borderRadius": "10px",
+      "backgroundColor": "transparent",
+      "fontWeight": "bold",
+      "isWholeLine": false
+    },
+    {
+      "text": "»",
+      "color": "#FFD86C",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "fontStyle": "italic"
+    },
+    {
+      "text": " Note: ",
+      "color": "#FFD86C",
+      "border": "1px solid #FFD86C",
+      "borderRadius": "10px",
+      "backgroundColor": "transparent",
+      "fontWeight": "bold",
+      "isWholeLine": false
+    },
+    {
+      "text": " Example: ",
+      "color": "#03A9F4",
+      "border": "1px solid #03A9F4",
+      "borderRadius": "10px",
+      "backgroundColor": "transparent",
+      "fontWeight": "bold",
+      "isWholeLine": false
+    },
+    {
+      "text": "✱",
+      "color": "#03A9F4",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "fontStyle": "italic"
+    },
+    {
+      "text": "✤",
+      "color": "#98C379",
+      "backgroundColor": "transparent",
+      "fontWeight": "bold",
+      "isWholeLine": true
+    },
+    {
+      "text": " file: ",
+      "color": "#C05780",
+      "border": "1px solid #C05780",
+      "borderRadius": "10px",
+      "backgroundColor": "transparent"
+    },
+    {
+      "text": "~",
+      "color": "#C05780",
+      "backgroundColor": "transparent",
+      "isWholeLine": true,
+      "fontStyle": "italic"
+    }
+  ]
+}
