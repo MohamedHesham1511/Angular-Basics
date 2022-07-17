@@ -122,13 +122,51 @@ serverStatus: string = 'offline'; //serverStatus = 'offline';
 //• Is a method which gets executed at the point of time the component is created by Angular.
 
 //# 17... property binding:
-//• We use "[property]='TypeScript data'" to dynamically bind a property of a HTML tag with a TypeScript data.
+//• We use ( [property]="TypeScript data" ) to dynamically bind a property of a HTML tag with a TypeScript data.
 
 //# 18... we could exchange string interpolation with property binding.
 //• using the ( [innerText]="TypeScript-data" ) attribute on a HTML element.
 
 //# 19... Event Binding:
-//• we use "(event)='functionName()'" in order to listen to user events.
+//• we use ( (event)="functionName()" ) in order to listen to user events.
 
 //# 20... ($event):
-//• Is a reserved variable name when we use event binding.
+//• Is a reserved variable name we can use in the template when we use event binding.
+
+//# 21... Two-way binding:
+//• In 2-way binding we combine "property" and "event" binding, by combining the "[]" and "()".
+//• we use ( [(ngModel)]="TypeScript-data" ) to create 2-way binding.
+//»  Note:  "ngModel" is a special directive used for 2-way binding.
+
+//# 22... What are Directives?
+//• Directives are instructions in the DOM!
+//• when using our created custom component for example: <app-server></app-server> it's a directive.
+//• we could have a directives with or without a template.
+//✱  Example:  "appTurnGreen" a custom directive we could build which color the text to green.
+<p appTurnGreen></p>;
+
+//# 23... '*ngIf' directive (structural directive) :
+//• we use ( *ngIf="condition" ) to conditionally output some data.
+//• a star * is required because ngIf is a structural directive which means it changes the structure of the DOM.
+//✱  Example:   *ngIf="serverCreated"
+
+//# 24... using else with the '*ngIf' (structural directive) :
+//• we could an else with the *ngIf like ( *ngIf="serverCreated; else noServer" )
+//• This means that we will render the template marked with #noServer in case the condition was false.
+//✱  Example:   *ngIf="serverCreated; else noServer"
+
+//# 25... 'ngStyle' (attribute directive) :
+//• we use 'ngStyle' attibute directive to add some styles dynamically.
+//»  Note:  attribute directives don't add or remove elements. They only change the element they were placed on.
+//✱  Example:   [ngStyle]="{ backgroundColor: getColor() }
+
+//# 26... 'ngClass' (attribute directive) :
+//• allows us to dynamically add or remove CSS classes.
+//✱  Example:  [ngClass]="{ online: getServerStatus() === 'online' }
+
+//# 27... '*ngFor' (structural directive) :
+//• allows us to render list of elements.
+//✱  Example:   *ngFor="let server of servers"
+
+//»  Note:  we could getting the index when using '*ngFor' like this :
+//✱  Example:  *ngFor="let logItem of log; let i = index"
