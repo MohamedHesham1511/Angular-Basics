@@ -1,0 +1,11 @@
+<!-- ➜  Todo:  1. outputting dynamic data from our TypeScript code into our template -->
+<!-- ➜         [returned values from functions , data]                               -->
+
+<!-- ➜  Todo:  2. using the 'ngStyle' attribute directive to add some styles based on 'serverStatus'  -->
+<!-- ➜  Todo:  3. adding class '.online' dynamically using 'ngClass' directive if serverStatus is online -->
+<p
+  [ngStyle]="{ backgroundColor: getColor() }"
+  [ngClass]="{ online: getServerStatus() === 'online' }"
+>
+  Server with ID {{ serverId }} is {{ getServerStatus() }}
+</p>
