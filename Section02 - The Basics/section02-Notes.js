@@ -42,10 +42,10 @@
 import { Component } from '@angular/core';
 
 //➜  Todo:  3. use the '@Component' decorator.
-@Component({
+/*@*/ Component({
   selector: 'app-server', //The CSS selector. [Note: stay away from accidentally override a default HTML element]
   templateUrl: './server.component.html', //reference-point to our HTML template. [using relative path]
-})
+});
 
 //➜  Todo:  1. export our Typescript class in order to be able to use it outside the file.
 export class ServerComponent {}
@@ -59,13 +59,13 @@ import { AppComponent } from './app.component';
 //➜  Todo:  4. import our new created component.
 import { ServerComponent } from './server/server.component';
 
-@NgModule({
+/*@*/ NgModule({
   //➜  Todo:  5. Registering/adding our new (ServerComponent) inside the '@NgModule({})' decorator inside the declarations array.
   declarations: [AppComponent, ServerComponent],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],
-})
+});
 export class AppModule {}
 //✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤✤//
 //»  Note:  Now we can use the "<app-server></app-server>" selector inside 'app.component.html' file.
