@@ -4,16 +4,21 @@
 //»  Note:  JavaScript is much faster than reaching out to the server for every page change or for every peace of data we want to display.
 
 //# 2... Understanding versioning of Angular.
-//• [AngularJS] or [Angular 1] : Angulat team found out that it wasn't future proof because of some fundamental flaws.
-//• [Angular 2] : The result of re-writting "AngularJS" and was released in 2016.
+//• [AngularJS] or [Angular 1] : Angular team found out that it wasn't future proof because of some fundamental flaws.
+//• [Angular 2] : The result of re-writting "AngularJS" and was released in "2016".
 //• [Angular 3] : This version was skipped because of internal reasons.
+//• [Angular 4]
+//• [   ...   ]
+//• [   ...   ]
 //• [Angular 10, 11, 12 ...etc].
 
 //»  Note:  All these versions are the same framework, the only difference is between "Angular JS" and Angular 2.
 
-//# 3... The Angular team releases a new major version every six-months.
+//# 3... The Angular team releases a new major version every 6-months.
 
 //»  Note:  We 1st need "Node.js" to be installed on our system so it brings up the "npm" tool with it.
+
+//»  Note:  "Node.js": is a server side language.
 
 //# 4... To install the Angular CLI [The official Angular command line interface] globally on our machine use command:
 //• 'npm install -g @angular/cli@latest'
